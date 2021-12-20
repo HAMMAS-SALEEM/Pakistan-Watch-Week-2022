@@ -34,8 +34,17 @@
     width: 98%;
 }
 
+.main_program {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #272a31;
+}
+
 .main_program_title {
-    color: #ec5242;
+    color: #d3d3d3;
+    text-align: center;
 }
 
 .main_border {
@@ -53,15 +62,23 @@
 }
 
 .course_description {
-    color: blue;
+    color: #d3d3d3;
 }
 
 .join_program_btn {
     height: 50px;
-    width: 70%;
+    width: 100%;
     background-color: #ec5242;
     color: white;
     border: none;
+    margin-top: 12px;
+}
+
+.featured_speaker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
 
 .featured_speaker_section_title {
@@ -89,7 +106,7 @@
 .speaker_info_border {
     width: 30px;
     height: 3px;
-    background-color: #272a31;
+    background-color: #d3d3d3;
 }
 
 .speaker_achievements {
