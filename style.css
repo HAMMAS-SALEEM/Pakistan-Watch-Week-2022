@@ -29,6 +29,8 @@
 .hello_title {
     color: #ec5242;
     font-size: 30px;
+    width: 92%;
+    font-weight: 900;
 }
 
 .hello_description {
@@ -173,6 +175,30 @@
 .history_batches {
     padding: 20px;
     text-align: center;
+}
+
+.history_back {
+    height: 200px;
+    background-image: url(images/previous_batch.jpg);
+}
+
+.history_back_02 {
+    margin-top: 30px;
+    height: 200px;
+    background-image: url(images/previous_batch-02.jpg);
+}
+
+.batch_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(197, 37, 37, 0.705);
+    height: 100%;
+    color: white;
+}
+
+.batch_year {
+    font-size: 35px;
 }
 
 .partners {
