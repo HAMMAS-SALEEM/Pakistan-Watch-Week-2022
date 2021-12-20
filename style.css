@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+
 }
 
 .ham0 {
@@ -133,4 +135,8 @@
     background-color: #fff;
     border: 1px solid #d3d3d3;
     color: #272a31;
+}
+
+.contact_us {
+    text-align: center;
 }
