@@ -15,16 +15,23 @@
     margin-top: 6px;
 }
 
+.home {
+    padding: 15px;
+}
+
 .hello {
     color: #ec5242;
+    font-size: 18px;
 }
 
 .hello_title {
     color: #ec5242;
+    font-size: 30px;
 }
 
 .hello_description {
     color: #272a31;
+    width: 98%;
 }
 
 .main_program_title {
