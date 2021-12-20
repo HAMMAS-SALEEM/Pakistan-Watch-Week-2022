@@ -147,6 +147,8 @@
 .speaker_profession {
     color: #ec5242;
     margin-bottom: 12px;
+    font-size: 12px;
+    font-style: italic;
 }
 
 .speaker_info_border {
@@ -159,6 +161,7 @@
 .speaker_achievements {
     color: #272a31;
     margin-bottom: 24px;
+    font-size: 12px;
 }
 
 .see_more_speakers {
