@@ -1,0 +1,258 @@
+@font-face { font-family: "COCOGOOSE"; src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot"); src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff") format("woff"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.svg#COCOGOOSE") format("svg"); }
+
+@import url('http://fonts.cdnfonts.com/css/lato');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+.ham0 {
+  margin: 20px 24px;
+}
+
+.ham {
+  width: 35px;
+  height: 5px;
+  background-color: #272a31;
+  margin-top: 6px;
+}
+
+.home {
+  padding: 15px;
+}
+
+.hello {
+  color: #ec5242;
+  font-size: 18px;
+}
+
+.hello_title {
+  color: #ec5242;
+  font-size: 30px;
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+.hello_description {
+  margin-top: 20px;
+  color: #272a31;
+  padding: 20px;
+  border: #d3d3d3 1px solid;
+}
+
+.main_program {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+
+  /* background-color: #272a31; */
+  background: url(images/courses_background.png);
+}
+
+.main_program_title {
+  color: #d3d3d3;
+  text-align: center;
+}
+
+.main_border {
+  width: 30px;
+  height: 1px;
+  background-color: #ec5242;
+  margin: 12px 0;
+}
+
+.courses {
+  display: flex;
+  background-color: rgba(211, 211, 211, 0.3);
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.course_icon {
+  width: 50px;
+  height: 50px;
+  align-self: center;
+}
+
+.course_title {
+  color: #ec5242;
+  align-self: center;
+  margin-left: 12px;
+  margin-right: 20px;
+}
+
+.course_description {
+  color: #d3d3d3;
+  align-self: center;
+  font-size: 14px;
+}
+
+.join_program_btn {
+  height: 50px;
+  width: 80%;
+  background-color: #ec5242;
+  color: white;
+  border: none;
+  margin: 50px 0;
+}
+
+.featured_speaker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.featured_speaker_section_title {
+  color: #272a31;
+  margin-bottom: 12px;
+}
+
+.speaker_border {
+  width: 30px;
+  height: 1px;
+  background-color: #ec5242;
+  margin-bottom: 12px;
+}
+
+.speaker_info {
+  display: flex;
+}
+
+.speaker_image_back {
+  width: 80px;
+  height: 80px;
+}
+
+.speaker_image {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  bottom: 60px;
+  left: 21px;
+}
+
+.speaker_details {
+  margin-left: 35px;
+}
+
+.speaker_name {
+  color: #272a31;
+  margin-bottom: 12px;
+}
+
+.speaker_profession {
+  color: #ec5242;
+  margin-bottom: 12px;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.speaker_info_border {
+  width: 30px;
+  height: 3px;
+  background-color: #d3d3d3;
+  margin-bottom: 12px;
+}
+
+.speaker_achievements {
+  color: #272a31;
+  margin-bottom: 24px;
+  font-size: 12px;
+}
+
+.see_more_speakers {
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+  color: #272a31;
+}
+
+.contact_us {
+  text-align: center;
+}
+
+.contact_email {
+  font-family: cocogoose, sans-serif;
+  color: #272a31;
+}
+
+.history_batches {
+  padding: 20px;
+  text-align: center;
+}
+
+.history_back {
+  height: 200px;
+  background-image: url(images/previous_batch.jpg);
+}
+
+.history_back_02 {
+  margin-top: 30px;
+  height: 200px;
+  background-image: url(images/previous_batch-02.jpg);
+}
+
+.batch_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(197, 37, 37, 0.705);
+  height: 100%;
+  color: white;
+}
+
+.batch_year {
+  font-size: 35px;
+}
+
+.partners {
+  background-color: #272a31;
+  display: flex;
+  flex-direction: column;
+}
+
+.partner_section_title {
+  text-align: center;
+  color: #d3d3d3;
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+
+.partner_border {
+  width: 30px;
+  height: 1px;
+  background-color: #ec5242;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+.partner_images {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.partner_logo {
+  width: 50px;
+  height: 50px;
+}
+
+.company_rights {
+  display: flex;
+  padding: 20px;
+}
+
+.company_logo {
+  width: 50px;
+  height: 50px;
+  align-self: center;
+}
+
+.rights_description {
+  align-self: center;
+}
