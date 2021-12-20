@@ -9,7 +9,7 @@
 }
 
 .ham {
-    width: 30px;
+    width: 35px;
     height: 5px;
     background-color: #272a31;
     margin-top: 6px;
@@ -30,8 +30,10 @@
 }
 
 .hello_description {
+    margin-top: 20px;
     color: #272a31;
-    width: 98%;
+    padding: 20px;
+    border: #d3d3d3 1px solid;
 }
 
 .main_program {
@@ -49,8 +51,9 @@
 
 .main_border {
     width: 30px;
-    height: 3px;
+    height: 1px;
     background-color: #ec5242;
+    margin: 12px 0;
 }
 
 .courses {
@@ -62,6 +65,7 @@
 
 .course_title {
     color: #ec5242;
+    margin: auto 12px;
 }
 
 .course_description {
@@ -86,38 +90,45 @@
 
 .featured_speaker_section_title {
     color: #272a31;
+    margin-bottom: 12px;
 }
 
 .speaker_border {
     width: 30px;
     height: 3px;
     background-color: #ec5242;
+    margin-bottom: 12px;
 }
 
 .speaker_info {
     display: flex;
+
 }
 
 .speaker_name {
     color: #272a31;
+    margin-bottom: 12px;
 }
 
 .speaker_profession {
     color: #ec5242;
+    margin-bottom: 12px;
 }
 
 .speaker_info_border {
     width: 30px;
     height: 3px;
     background-color: #d3d3d3;
+    margin-bottom: 12px;
 }
 
 .speaker_achievements {
     color: #272a31;
+    margin-bottom: 24px;
 }
 
 .see_more_speakers {
-    width: 80%;
+    width: 100%;
     height: 50px;
     background-color: #fff;
     border: 1px solid #d3d3d3;
