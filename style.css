@@ -15,3 +15,84 @@
     margin-top: 6px;
 }
 
+.hello {
+    color: #ec5242;
+}
+
+.hello_title {
+    color: #ec5242;
+}
+
+.hello_description {
+    color: #272a31;
+}
+
+.main_program_title {
+    color: #ec5242;
+}
+
+.main_border {
+    width: 30px;
+    height: 3px;
+    background-color: #ec5242;
+}
+
+.courses {
+    display: flex;
+}
+
+.course_title {
+    color: #ec5242;
+}
+
+.course_description {
+    color: blue;
+}
+
+.join_program_btn {
+    height: 50px;
+    width: 70%;
+    background-color: #ec5242;
+    color: white;
+    border: none;
+}
+
+.featured_speaker_section_title {
+    color: #272a31;
+}
+
+.speaker_border {
+    width: 30px;
+    height: 3px;
+    background-color: #ec5242;
+}
+
+.speaker_info {
+    display: flex;
+}
+
+.speaker_name {
+    color: #272a31;
+}
+
+.speaker_profession {
+    color: #ec5242;
+}
+
+.speaker_info_border {
+    width: 30px;
+    height: 3px;
+    background-color: #272a31;
+}
+
+.speaker_achievements {
+    color: #272a31;
+}
+
+.see_more_speakers {
+    width: 80%;
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #d3d3d3;
+    color: #272a31;
+}
