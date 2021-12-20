@@ -140,3 +140,26 @@
 .contact_us {
     text-align: center;
 }
+
+.history_batches {
+    padding: 20px;
+    text-align: center;
+}
+
+.partners {
+    background-color: #272a31;
+}
+
+.partner_section_title {
+    text-align: center;
+    color: #d3d3d3;
+}
+
+.company_rights {
+    display: flex;
+    padding: 20px;
+}
+
+.rights_description {
+    align-self: center;
+}
