@@ -1,3 +1,6 @@
+@font-face {font-family: "COCOGOOSE"; src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot"); src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff") format("woff"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.svg#COCOGOOSE") format("svg"); }
+@import url('http://fonts.cdnfonts.com/css/lato');
+
 * {
     padding: 0;
     margin: 0;
@@ -29,8 +32,7 @@
 .hello_title {
     color: #ec5242;
     font-size: 30px;
-    width: 92%;
-    font-weight: 900;
+    font-family: 'COCOGOOSE', sans-serif; 
 }
 
 .hello_description {
@@ -123,19 +125,18 @@
 .speaker_image_back {
     width: 80px;
     height: 80px;
-    position: absolute;
-    top: 5px;
 }
 
 .speaker_image {
-    position: sticky;
     width: 120px;
     height: 120px;
-    margin: 29px 12px 0px 22px;
+    position: relative;
+    bottom: 60px;
+    left: 21px;
 }
 
 .speaker_details {
-    margin-left: 12px;
+    margin-left: 35px;
 }
 
 .speaker_name {
