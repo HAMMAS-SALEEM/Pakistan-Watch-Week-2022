@@ -55,6 +55,9 @@
 
 .courses {
     display: flex;
+    background-color: rgba(211,211,211,0.3);
+    padding: 5px;
+    margin-top: 10px;
 }
 
 .course_title {
