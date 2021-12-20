@@ -44,6 +44,7 @@
     align-items: center;
     padding: 20px;
     background-color: #272a31;
+    background: url(images/courses_background.png);
 }
 
 .main_program_title {
@@ -65,22 +66,32 @@
     margin-top: 10px;
 }
 
+.course_icon {
+    width: 50px;
+    height: 50px;
+    align-self: center;
+}
+
 .course_title {
     color: #ec5242;
-    margin: auto 12px;
+    align-self: center;
+    margin-left: 12px;
+    margin-right: 20px;
 }
 
 .course_description {
     color: #d3d3d3;
+    align-self: center;
+    font-size: 14px;
 }
 
 .join_program_btn {
     height: 50px;
-    width: 100%;
+    width: 80%;
     background-color: #ec5242;
     color: white;
     border: none;
-    margin-top: 12px;
+    margin: 50px 0;
 }
 
 .featured_speaker {
@@ -97,9 +108,14 @@
 
 .speaker_border {
     width: 30px;
-    height: 3px;
+    height: 1px;
     background-color: #ec5242;
     margin-bottom: 12px;
+}
+
+.speaker_image_back {
+    width: 50px;
+    height: 50px;
 }
 
 .speaker_info {
@@ -148,11 +164,23 @@
 
 .partners {
     background-color: #272a31;
+    display: flex;
+    flex-direction: column;
 }
 
 .partner_section_title {
     text-align: center;
     color: #d3d3d3;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+.partner_border {
+    width: 30px;
+    height: 1px;
+    background-color: #ec5242;
+    align-self: center;
+    margin-bottom: 20px;
 }
 
 .company_rights {
