@@ -113,14 +113,27 @@
     margin-bottom: 12px;
 }
 
-.speaker_image_back {
-    width: 50px;
-    height: 50px;
-}
 
 .speaker_info {
     display: flex;
+}
 
+.speaker_image_back {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 5px;
+}
+
+.speaker_image {
+    position: sticky;
+    width: 120px;
+    height: 120px;
+    margin: 29px 12px 0px 22px;
+}
+
+.speaker_details {
+    margin-left: 12px;
 }
 
 .speaker_name {
