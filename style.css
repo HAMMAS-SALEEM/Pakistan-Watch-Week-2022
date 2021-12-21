@@ -314,6 +314,7 @@
 
 @media screen and (max-width: 768px)  {
   .nav_desktop {
+    visibility: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
