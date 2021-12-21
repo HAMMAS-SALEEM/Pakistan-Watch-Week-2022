@@ -167,6 +167,7 @@
 }
 
 .see_more_speakers {
+  display: none;
   width: 100%;
   height: 50px;
   background-color: #fff;
@@ -327,6 +328,7 @@
     background-color: rgba(211, 211, 211, 0);
     font-size: 18px;
     text-decoration: underline;
+    margin: 20px 0 0 0;
   }
 
   .speaker_image_block {
