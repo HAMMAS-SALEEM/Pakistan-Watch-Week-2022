@@ -385,4 +385,25 @@
   .partner_about {
     display: none;
   }
+
+  .about_home {
+    margin: auto;
+  }
+
+  .about_hello {
+  display: none;
+  }
+
+  .about_title {
+    margin: auto;
+  }
+
+  .about_description {
+    margin: auto;
+  }
+
+  .company_contrast {
+    background-color: #272a31;
+    color: #d3d3d3;
+  }
 }
