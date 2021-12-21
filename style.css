@@ -256,12 +256,24 @@
   align-self: center;
 }
 
+.rights_title {
+  align-self: center;
+}
+
 .rights_description {
   align-self: center;
 }
 
 .nav_desktop {
   display: none;
+}
+
+.about_home {
+  text-align: center;
+}
+
+.about_title {
+  font-size: 29px;
 }
 
 @media screen and (min-width: 769px) {
@@ -345,5 +357,14 @@
 
   .speaker_card {
     margin: auto 15px;
+  }
+
+  .history_batches {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .history_back_02 {
+    margin: 0;
   }
 }
