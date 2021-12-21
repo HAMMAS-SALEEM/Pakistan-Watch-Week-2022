@@ -352,6 +352,16 @@
 }
 
 @media screen and (min-width: 769px) {
+.social_links {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #272a31;
+}
+
+  .media_links {
+    color: #d3d3d3;
+    list-style: none;
+  }
   .ham0 {
     display: none;
   }
