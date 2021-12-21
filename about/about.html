@@ -18,11 +18,13 @@
                 <div class="ham"></div>
             </div>
             <div class="nav_desktop">
-                <a class="nav_link" href="../index.html">Home</a>
+                <span class="crossBtn">&times;</span>
+                <a onclick="hideMenu()" class="nav_link func_01" href="../index.html">Home</a>
                 <div class="nav_link_section">
-                    <a class="nav_link" href="#main">Programs</a>
-                    <a class="nav_link nav_link_02" href="#speakers">Speaker</a>
-                    <a class="nav_link nav_link_02" href="">About</a>
+                    <a onclick="hideMenu()" class="nav_link func_02" href="./about/about.html">About</a>
+                    <a onclick="hideMenu()" class="nav_link nav_link_02 func_03" href="#main">Programs</a>
+                    <a onclick="hideMenu()" class="nav_link nav_link_02 func_04" href="#speakers">Speaker</a>
+                    <a onclick="hideMenu()" class="nav_link nav_link_02 func_05" href="#speakers">CC Campaign</a>
                 </div>
             </div>
         </nav>
@@ -86,6 +88,7 @@
             <p class="rights_description">2015 Creative Commons Korea. Some Rights Reserved.</p>
         </div>
     </footer>
+    <script src="../script.js"></script>
 </body>
 
 </html>
