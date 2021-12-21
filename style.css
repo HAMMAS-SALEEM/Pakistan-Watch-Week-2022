@@ -213,6 +213,10 @@
   font-size: 35px;
 }
 
+.footer {
+  display: none;
+}
+
 .partners {
   background-color: #272a31;
   display: flex;
@@ -248,6 +252,11 @@
 .company_rights {
   display: flex;
   padding: 20px;
+  justify-content: space-evenly;
+}
+
+.company_name {
+  display: flex;
 }
 
 .company_logo {
@@ -258,6 +267,7 @@
 
 .rights_title {
   align-self: center;
+  font-family: cocogoose , sans-serif;
 }
 
 .rights_description {
@@ -366,5 +376,13 @@
 
   .history_back_02 {
     margin: 0;
+  }
+
+  .footer {
+    display: inherit;
+  }
+
+  .partner_about {
+    display: none;
   }
 }
