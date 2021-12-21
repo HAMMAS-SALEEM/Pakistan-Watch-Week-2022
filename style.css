@@ -1,4 +1,8 @@
-@font-face { font-family: "COCOGOOSE"; src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot"); src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff") format("woff"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.svg#COCOGOOSE") format("svg"); }
+@font-face {
+  font-family: "COCOGOOSE";
+  src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot");
+  src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff") format("woff"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.svg#COCOGOOSE") format("svg");
+}
 
 @import url('http://fonts.cdnfonts.com/css/lato');
 
@@ -47,8 +51,6 @@
   flex-direction: column;
   align-items: center;
   padding: 20px;
-
-  /* background-color: #272a31; */
   background: url(images/courses_background.png);
 }
 
@@ -118,7 +120,7 @@
   margin-bottom: 12px;
 }
 
-.speaker_info {
+.speaker_card {
   display: flex;
 }
 
@@ -165,6 +167,7 @@
 }
 
 .see_more_speakers {
+  display: none;
   width: 100%;
   height: 50px;
   background-color: #fff;
@@ -174,6 +177,7 @@
 
 .contact_us {
   text-align: center;
+  padding: 20px;
 }
 
 .contact_email {
@@ -181,9 +185,33 @@
   color: #272a31;
 }
 
+.grey_border {
+  width: 100%;
+  height: 1px;
+  background-color: #d3d3d3;
+  margin: 80px auto;
+}
+
+.batch_container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-top: 35px;
+  align-items: center;
+}
+
+.prev_batch_title {
+  color: #272a31;
+}
+
+.p_border {
+  margin-top: 20px;
+}
+
 .history_batches {
   padding: 20px;
   text-align: center;
+  margin: 50px 0;
 }
 
 .history_back {
@@ -208,6 +236,14 @@
 
 .batch_year {
   font-size: 35px;
+}
+
+.batch_description {
+  width: 98%;
+}
+
+.footer {
+  display: none;
 }
 
 .partners {
@@ -245,6 +281,11 @@
 .company_rights {
   display: flex;
   padding: 20px;
+  justify-content: space-evenly;
+}
+
+.company_name {
+  display: flex;
 }
 
 .company_logo {
@@ -253,6 +294,146 @@
   align-self: center;
 }
 
+.rights_title {
+  align-self: center;
+  font-family: cocogoose, sans-serif;
+  margin-right: 20px;
+}
+
 .rights_description {
   align-self: center;
+}
+
+.nav_desktop {
+  display: none;
+}
+
+.about_home {
+  text-align: center;
+}
+
+.about_title {
+  font-size: 29px;
+}
+
+@media screen and (min-width: 769px) {
+  .ham0 {
+    display: none;
+  }
+
+  .nav_desktop {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .nav_link {
+    text-decoration: none;
+    color: #272a31;
+    font-weight: 700;
+  }
+
+  .nav_link_section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav_link_02 {
+    margin-left: 30%;
+  }
+
+  .home {
+    margin-left: 15%;
+  }
+
+  .hello_title {
+    font-size: 48px;
+    width: 550px;
+  }
+
+  .hello_description {
+    width: 550px;
+  }
+
+  .for_fullscreen {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .courses {
+    flex-direction: column;
+    width: 150px;
+    margin: 2px;
+    height: 180px;
+    padding: 5px;
+  }
+
+  .course_title {
+    margin: 0;
+  }
+
+  .course_description {
+    text-align: center;
+  }
+
+  .join_program_btn {
+    background-color: rgba(211, 211, 211, 0);
+    font-size: 18px;
+    text-decoration: underline;
+    margin: 20px 0 0 0;
+  }
+
+  .speaker_image_block {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .speaker_info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto 10%;
+    justify-content: space-evenly;
+  }
+
+  .speaker_card {
+    margin: auto 15px;
+  }
+
+  .history_batches {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .history_back_02 {
+    margin: 0;
+  }
+
+  .footer {
+    display: inherit;
+  }
+
+  .partner_about {
+    display: none;
+  }
+
+  .about_home {
+    margin: auto;
+  }
+
+  .about_hello {
+    display: none;
+  }
+
+  .about_title {
+    margin: auto;
+  }
+
+  .about_description {
+    margin: auto;
+  }
+
+  .company_contrast {
+    background-color: #272a31;
+    color: #d3d3d3;
+  }
 }
