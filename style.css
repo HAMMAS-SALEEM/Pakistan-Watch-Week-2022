@@ -304,10 +304,6 @@
   align-self: center;
 }
 
-.nav_desktop {
-  display: none;
-}
-
 .about_home {
   text-align: center;
 }
@@ -316,8 +312,50 @@
   font-size: 29px;
 }
 
+@media screen and (max-width: 768px)  {
+  .nav_desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: rgba(240, 80, 62, 0.7);
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+    z-index: 1;
+  }
+  .nav_link_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .crossBtn{
+    font-size: 42px;
+    font-weight: 900;
+    color: #d3d3d3;
+  }
+
+  .crossBtn:hover, .crossBtn:focus {
+    color: #272a31;
+  }
+
+  .nav_link {
+    margin-top: 30px;
+    text-decoration: none;
+    color: #d3d3d3;
+    font-size: 24px;
+    font-weight: 900;
+  }
+}
+
 @media screen and (min-width: 769px) {
   .ham0 {
+    display: none;
+  }
+
+  .crossBtn {
     display: none;
   }
 
