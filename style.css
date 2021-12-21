@@ -120,7 +120,7 @@
   margin-bottom: 12px;
 }
 
-.speaker_info {
+.speaker_card {
   display: flex;
 }
 
@@ -332,6 +332,16 @@
   .speaker_image_block {
     display: flex;
     flex-direction: column;
-    
+  }
+
+  .speaker_info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto 20%;
+    justify-content: space-evenly;
+  }
+
+  .speaker_card {
+    margin: auto 15px;
   }
 }
