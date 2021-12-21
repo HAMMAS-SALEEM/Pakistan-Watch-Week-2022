@@ -296,7 +296,7 @@
 
 .rights_title {
   align-self: center;
-  font-family: cocogoose , sans-serif;
+  font-family: cocogoose, sans-serif;
   margin-right: 20px;
 }
 
@@ -421,7 +421,7 @@
   }
 
   .about_hello {
-  display: none;
+    display: none;
   }
 
   .about_title {
