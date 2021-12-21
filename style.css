@@ -1,4 +1,8 @@
-@font-face { font-family: "COCOGOOSE"; src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot"); src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff") format("woff"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.svg#COCOGOOSE") format("svg"); }
+@font-face {
+  font-family: "COCOGOOSE";
+  src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot");
+  src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff") format("woff"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.svg#COCOGOOSE") format("svg");
+}
 
 @import url('http://fonts.cdnfonts.com/css/lato');
 
@@ -47,8 +51,6 @@
   flex-direction: column;
   align-items: center;
   padding: 20px;
-
-  /* background-color: #272a31; */
   background: url(images/courses_background.png);
 }
 
@@ -255,4 +257,81 @@
 
 .rights_description {
   align-self: center;
+}
+
+.nav_desktop {
+  display: none;
+}
+
+@media screen and (min-width: 769px) {
+  .ham0 {
+    display: none;
+  }
+
+  .nav_desktop {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .nav_link {
+    text-decoration: none;
+    color: #272a31;
+    font-weight: 700;
+  }
+
+  .nav_link_section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav_link_02 {
+    margin-left: 30%;
+  }
+
+  .home {
+    margin-left: 15%;
+  }
+
+  .hello_title {
+    font-size: 48px;
+    width: 550px;
+  }
+
+  .hello_description {
+    width: 550px;
+  }
+
+  .for_fullscreen {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .courses {
+    flex-direction: column;
+    width: 150px;
+    margin: 2px;
+    height: 180px;
+    padding: 5px;
+  }
+
+  .course_title {
+    margin: 0;
+  }
+
+  .course_description {
+    text-align: center;
+  }
+
+  .join_program_btn {
+    background-color: rgba(211, 211, 211, 0);
+    font-size: 18px;
+    text-decoration: underline;
+  }
+
+  .speaker_image_block {
+    display: flex;
+    flex-direction: column;
+    
+  }
 }
