@@ -3,7 +3,8 @@ const navMenu = document.querySelector('.nav_desktop');
 const crossBtn = document.querySelector('.crossBtn');
 const speakerInfo = document.querySelector('.speaker_info');
 
-const data = [{
+const data = [
+{
   speakerImage: 'images/rolex_ceo.jpg',
   name: 'Jean-Frédéric Dufourr',
   alt: 'Jean-Frédéric Dufour image',
@@ -30,7 +31,7 @@ const data = [{
   alt: 'Tim Cook image',
   profession: "Citizen Watch's President & CEO",
   achievements: 'Timothy Donald Cook is an American business executive who has been the chief executive officer of Apple Inc. since 2011.',
-},
+}
 ];
 
 for (let i = 0; i < data.length; i += 1) {
