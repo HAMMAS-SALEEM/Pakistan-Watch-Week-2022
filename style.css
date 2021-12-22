@@ -51,6 +51,20 @@
   border: #d3d3d3 1px solid;
 }
 
+.hello_date {
+  margin-top: 50px;
+  color: #535353;
+  font-family: cocogoose, sans-serif;
+  font-size: 27px;
+}
+
+.hello_venue {
+  color: #535353;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
 .main_program {
   display: flex;
   flex-direction: column;
@@ -419,6 +433,19 @@
   .nav_link_02 {
     margin-right: 50px;
     padding: 14px;
+  }
+
+  .nav_home {
+    display: flex;
+    width: 60px;
+    height: 50px;
+    padding: 0;
+  }
+
+  .logo_img {
+    width: 60px;
+    height: 50px;
+    padding: 0;
   }
 
   .func_05 {
