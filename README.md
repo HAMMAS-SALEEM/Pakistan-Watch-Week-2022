@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Pakistan Watch Week Web Application
+# Pakistan Watch Week 2022 Web Application
 
 > This web app is specially created for Pakistan Watch Week 2022. It basically shares information about the Expo such as
 
