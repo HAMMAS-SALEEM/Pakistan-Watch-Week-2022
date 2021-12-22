@@ -18,21 +18,26 @@
 }
 
 .ham0 {
-  margin: 20px 24px;
   cursor: pointer;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+.ham_2 {
+  margin-top: 6px;
 }
 
 .ham {
   width: 35px;
   height: 5px;
   background-color: #d3d3d3;
-  margin-top: 6px;
   position: relative;
   top: 20px;
 }
 
 body {
-  background: url(./images/mobile_2.jpg);
+  background-image: url(./images/mobile_2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   backdrop-filter: blur(10px);
@@ -47,8 +52,16 @@ body {
   padding: 15px;
 }
 
+.homepage {
+  margin-top: -7px;
+}
+
+.home_over , .about_homepage {
+  background-color: rgba(211, 211, 211, 0.7);
+}
+
 .hello {
-  margin-top: 20px;
+  margin-top: 60px;
   color: #ec5242;
   font-size: 18px;
 }
@@ -66,22 +79,23 @@ body {
   font-weight: 600;
   padding: 20px;
   border: #d3d3d3 1px solid;
-  background-color: #fff;
+  background-color: rgba(271, 271, 271, 0.7);
 }
 
 .hello_date {
   margin-top: 50px;
   font-family: cocogoose, sans-serif;
   font-size: 27px;
-  color: #fff;
+  color: #ec5242;
+  background-blend-mode: darken;
 }
 
 .hello_venue {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 900;
   margin-top: 10px;
   margin-bottom: 50px;
-  color: white;
+  color:  #ec5242;
 }
 
 .main_program {
@@ -216,18 +230,15 @@ body {
 }
 
 .contact_us {
-  /* width: 80%; */
   text-align: center;
   padding: 20px;
-  color: white;
+  color: #ec5242;
   font-weight: 900;
-
-  /* background: #fff; */
 }
 
 .contact_email {
   font-family: cocogoose, sans-serif;
-  color: #fff;
+  color: #ec5242;
 }
 
 .grey_border {
@@ -452,6 +463,10 @@ body {
 
   .ham0 {
     display: none;
+  }
+
+  .homepage {
+    margin-top: 0;
   }
 
   .logo_img {
