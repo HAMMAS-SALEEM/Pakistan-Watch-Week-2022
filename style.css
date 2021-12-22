@@ -419,6 +419,9 @@ body {
 @media screen and (min-width: 769px) {
   body {
     margin-top: 0;
+    background: url("./images/desktop_background.jpg");
+    background-size: contain;
+    backdrop-filter: blur(5px);
   }
 
   .social_links_bar {
