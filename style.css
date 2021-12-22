@@ -71,14 +71,12 @@ body {
 
 .hello_date {
   margin-top: 50px;
-  color: #535353;
   font-family: cocogoose, sans-serif;
   font-size: 27px;
   color: #fff;
 }
 
 .hello_venue {
-  color: #535353;
   font-size: 18px;
   font-weight: 700;
   margin-top: 10px;
@@ -223,6 +221,7 @@ body {
   padding: 20px;
   color: white;
   font-weight: 900;
+
   /* background: #fff; */
 }
 
@@ -447,6 +446,9 @@ body {
 
   .logo_img {
     display: inherit;
+    width: 60px;
+    height: 50px;
+    padding: 0;
   }
 
   .crossBtn {
@@ -480,12 +482,6 @@ body {
 
   .nav_home {
     display: flex;
-    width: 60px;
-    height: 50px;
-    padding: 0;
-  }
-
-  .logo_img {
     width: 60px;
     height: 50px;
     padding: 0;
