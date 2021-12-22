@@ -13,3 +13,56 @@ function hideMenu() {
 }
 
 crossBtn.addEventListener('click', hideMenu);
+
+
+
+
+
+                // <div class="speaker_card">
+                //     <div class="speaker_image_block">
+                //         <img class="speaker_image_back" src="images/transparent.jpg" alt="background transparent">
+                //         <img class="speaker_image" src="images/tudor_ceo.jpg" alt="Toshiko Sato image">
+                //     </div>
+                //     <div class="speaker_details">
+                //         <h3 class="speaker_name">Phillipe Peverelli</h3>
+                //         <p class="speaker_profession">CEO of Tudor</p>
+                //         <div class="speaker_info_border"></div>
+                //         <p class="speaker_achievements">Phillipe Peverelli is an swedish business executive who 
+                //             has been the chief executive officer of Tudor Inc. since 2010.
+                //         </p>
+                //     </div>
+                // </div>
+                
+
+let data = [{
+  speakerImage : "images/rolex_ceo.jpg",
+  name : "Jean-Frédéric Dufourr",
+  alt : "Jean-Frédéric Dufour image",
+  profession : "Citizen Watch's President & CEO",
+  achievements : "Jean-Frédéric Dufourr is an American business executive who has been the chief executive officer of Rolex Watch Inc. since 2020."
+}
+,
+{
+  speakerImage : "images/tudor_ceo.jpg",
+  name : "Phillipe Peverelli",
+  alt : "Toshiko Sato image",
+  profession : "CEO of Tudor",
+  achievements : "Phillipe Peverelli is an swedish business executive who has been the chief executive officer of Tudor Inc. since 2010."
+}
+,
+{
+  speakerImage : "images/citizen_ceo.jpg",
+  name : "Toshihiko Sato",
+  alt : "Toshiko Sato image",
+  profession : "Citizen Watch's President & CEO",
+  achievements : "Jean-Frédéric Dufourr is an American business executive who has been the chief executive officer of Rolex Watch Inc. since 2020."
+}
+,
+{
+  speakerImage : "images/apple_ceo.jpg",
+  name : "Tim Cook",
+  alt : "Tim Cook image",
+  profession : "Citizen Watch's President & CEO",
+  achievements : "Timothy Donald Cook is an American business executive who has been the chief executive officer of Apple Inc. since 2011."
+}
+]
