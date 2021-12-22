@@ -436,10 +436,18 @@ body {
   }
 
   .media_links {
+    text-decoration: none;
     color: #fff;
     list-style: none;
     margin-right: 20px;
     margin-top: 4px;
+    cursor: pointer;
+  }
+
+  .m_link {
+    text-decoration: none;
+    color: #fff;
+
   }
 
   .ham0 {
