@@ -25,8 +25,18 @@
 .ham {
   width: 35px;
   height: 5px;
-  background-color: #272a31;
+  background-color: #d3d3d3;
   margin-top: 6px;
+  position: relative;
+  top: 20px;
+}
+
+body {
+  background: url(./images/mobile_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(10px);
+  margin-top: -20px;
 }
 
 .logo_img {
@@ -38,6 +48,7 @@
 }
 
 .hello {
+  margin-top: 20px;
   color: #ec5242;
   font-size: 18px;
 }
@@ -51,8 +62,11 @@
 .hello_description {
   margin-top: 20px;
   color: #272a31;
+  font-size: 18px;
+  font-weight: 600;
   padding: 20px;
   border: #d3d3d3 1px solid;
+  background-color: #fff;
 }
 
 .hello_date {
@@ -60,13 +74,16 @@
   color: #535353;
   font-family: cocogoose, sans-serif;
   font-size: 27px;
+  color: #fff;
 }
 
 .hello_venue {
   color: #535353;
+  font-size: 18px;
   font-weight: 700;
   margin-top: 10px;
   margin-bottom: 50px;
+  color: white;
 }
 
 .main_program {
@@ -130,6 +147,7 @@
   flex-direction: column;
   align-items: center;
   padding: 20px;
+  background-color: white;
 }
 
 .featured_speaker_section_title {
@@ -200,13 +218,17 @@
 }
 
 .contact_us {
+  /* width: 80%; */
   text-align: center;
   padding: 20px;
+  color: white;
+  font-weight: 900;
+  /* background: #fff; */
 }
 
 .contact_email {
   font-family: cocogoose, sans-serif;
-  color: #272a31;
+  color: #fff;
 }
 
 .grey_border {
@@ -224,8 +246,14 @@
   align-items: center;
 }
 
+.prev_batch {
+  background-color: white;
+}
+
 .prev_batch_title {
   color: #272a31;
+  margin-top: 30px;
+  font-size: 30px;
 }
 
 .p_border {
@@ -235,7 +263,7 @@
 .history_batches {
   padding: 20px;
   text-align: center;
-  margin: 50px 0;
+  margin-top: 50px;
 }
 
 .history_back {
@@ -306,6 +334,7 @@
   display: flex;
   padding: 20px;
   justify-content: space-evenly;
+  background: #fff;
 }
 
 .company_name {
@@ -389,6 +418,10 @@
 }
 
 @media screen and (min-width: 769px) {
+  body {
+    margin-top: 0;
+  }
+
   .social_links_bar {
     display: inherit;
     background-color: #535353;
@@ -424,6 +457,7 @@
     padding: 20px;
     display: flex;
     justify-content: space-around;
+    background-color: #fff;
   }
 
   .nav_link {
