@@ -102,7 +102,8 @@
   color: #ec5242;
   align-self: center;
   margin-left: 12px;
-  margin-right: 20px;
+  margin-right: 60px;
+  width: 50px;
 }
 
 .course_description {
@@ -308,7 +309,7 @@
 }
 
 .company_logo {
-  width: 50px;
+  width: 60px;
   height: 50px;
   align-self: center;
 }
@@ -477,12 +478,12 @@
     flex-direction: column;
     width: 150px;
     margin: 2px;
-    height: 180px;
     padding: 5px;
   }
 
   .course_title {
-    margin: 0;
+    margin: 12px 0;
+    width: auto;
   }
 
   .course_description {
