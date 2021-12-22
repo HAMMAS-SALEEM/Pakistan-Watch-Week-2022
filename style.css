@@ -31,7 +31,7 @@
 .ham {
   width: 35px;
   height: 5px;
-  background-color: #d3d3d3;
+  background-color: #000;
   position: relative;
   top: 20px;
 }
@@ -56,8 +56,10 @@ body {
   margin-top: -7px;
 }
 
-.home_over , .about_homepage {
+.home_over,
+.about_homepage {
   background-color: rgba(211, 211, 211, 0.7);
+  margin-top: -7px;
 }
 
 .hello {
@@ -95,7 +97,7 @@ body {
   font-weight: 900;
   margin-top: 10px;
   margin-bottom: 50px;
-  color:  #ec5242;
+  color: #ec5242;
 }
 
 .main_program {
@@ -458,14 +460,17 @@ body {
   .m_link {
     text-decoration: none;
     color: #fff;
-
   }
 
   .ham0 {
     display: none;
   }
 
-  .homepage {
+  .home_over {
+    margin-top: 7px;
+  }
+
+  .about_homepage {
     margin-top: 0;
   }
 
