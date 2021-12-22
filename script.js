@@ -64,5 +64,3 @@ function hideMenu() {
 }
 
 crossBtn.addEventListener('click', hideMenu);
-
-document.addEventListener('click' , console.log(speakerInfo))

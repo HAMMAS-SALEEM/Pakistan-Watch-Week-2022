@@ -13,12 +13,21 @@
   font-family: 'Lato', sans-serif;
 }
 
+body {
+  background: url("./images/mobile_2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .social_links_bar {
   display: none;
 }
 
+.brgr {
+  padding: 20px;
+}
+
 .ham0 {
-  margin: 20px 24px;
   cursor: pointer;
 }
 
@@ -27,6 +36,10 @@
   height: 5px;
   background-color: #272a31;
   margin-top: 6px;
+}
+
+.ham_1 {
+  margin-top: 0;
 }
 
 .home {
@@ -126,6 +139,7 @@
   flex-direction: column;
   align-items: center;
   padding: 20px;
+  background-color: rgb(255, 255, 255);
 }
 
 .featured_speaker_section_title {
@@ -385,6 +399,11 @@
 }
 
 @media screen and (min-width: 769px) {
+  body {
+    background: url("./images/desktop_background.jpg");
+    background-size: contain;
+  }
+
   .social_links_bar {
     display: inherit;
     background-color: #535353;
@@ -404,6 +423,10 @@
     margin-top: 4px;
   }
 
+  .brgr {
+    padding: 0;
+  }
+
   .ham0 {
     display: none;
   }
@@ -416,6 +439,7 @@
     padding: 20px;
     display: flex;
     justify-content: space-around;
+    background: white;
   }
 
   .nav_link {
