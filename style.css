@@ -21,7 +21,7 @@
   cursor: pointer;
   position: relative;
   top: 20px;
-  left: 20px;
+  margin-left: 20px;
 }
 
 .ham_2 {
@@ -402,6 +402,7 @@ body {
     font-weight: 900;
     color: #d3d3d3;
     cursor: pointer;
+    margin-top: 36px;
   }
 
   .crossBtn:hover,
