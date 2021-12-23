@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/4175dce9d8.js" crossorigin="anonymous"></script>
+
     <title>Learner'z</title>
 </head>
 
@@ -17,32 +18,35 @@
                 <li>
                     <ul class="social_links">
                         <li class="media_links">
-                            <i class="fab fa-facebook-f"></i>
+                            <a href="" class="m_link"><i class="fab fa-facebook-f"></i></a>
                         </li>
                         <li class="media_links">
-                            <i class="fab fa-twitter"></i>
+                            <a href="" class="m_link"><i class="fab fa-twitter"></i></a>
                         </li>
                         <li class="media_links">
-                            English
+                            <a href="" class="m_link">English</a>
                         </li>
                         <li class="media_links">
-                            My Page
+                            <a href="" class="m_link">My Page</a>
                         </li>
                         <li class="media_links">
-                            Logout
+                            <a href="" class="m_link">Logout</a>
                         </li>
                     </ul>
                 </li>
             </ul>
-                
+
             <div class="ham0">
-                <div class="ham"></div>
-                <div class="ham"></div>
-                <div class="ham"></div>
+                <div class="ham ham_first"></div>
+                <div class="ham ham_2"></div>
+                <div class="ham ham_2"></div>
             </div>
             <div class="nav_desktop">
                 <span class="crossBtn">&times;</span>
-                <a onclick="hideMenu()" class="nav_link func_01" href="../index.html">Home</a>
+                <a onclick="hideMenu()" class="nav_link nav_home" href="../index.html"><img src="./images/logo.png"
+                        alt="logo" class="logo_img">
+                    <h3>Pakistan Watch Week</h3>
+                </a>
                 <div class="nav_link_section">
                     <a onclick="hideMenu()" class="nav_link func_02" href="./about/about.html">About</a>
                     <a onclick="hideMenu()" class="nav_link nav_link_02 func_03" href="#main">Programs</a>
@@ -51,53 +55,59 @@
                 </div>
             </div>
         </nav>
+        <div class="back_drop"></div>
     </header>
     <section class="homepage" id="home">
-        <div class="home">
-            <h3 class="hello">"Hello! Sharing world"</h3>
-            <h1 class="hello_title">CREATIVE COMMONS GLOBAL SUMMIT 2015</h1>
-            <P class="hello_description">A joyfull celebration believing in the value of oppenness and sharing creating
-                a positive change with people
-                over 80 countries is taking place in October, in Pakistan.
-            </P>
+        <div class="home_over">
+            <div class="home">
+                <h3 class="hello">"Hello & Asalam-o-Alaikum! Trendy World"</h3>
+                <h1 class="hello_title">PAKISTAN WRIST WATCH CONVENTION 2022</h1>
+                <P class="hello_description">The brand exhibition distinguishes itself by offering a more intimate and
+                    engaging experience with world renowned horological brands.
+                    With over 40 luxury marques, the exhibition space allows visitors to immerse themselves in the
+                    unique spirits of each brand.</P>
+                <h2 class="hello_date">2022.01.17(MON) ~ 23(SUN)</h2>
+                <p class="hello_venue">@ Hotel ONE of Faisalabad, Pakistan </p>
+            </div>
         </div>
         <div class="main_program" id="main">
             <h2 class="main_program_title">Main Program</h2>
             <div class="main_border"></div>
             <div class="for_fullscreen">
                 <div class="courses">
-                    <img src="images/react.png" alt="react image" class="course_icon">
+                    <img src="./images/lecture.png" alt="lecture logo" class="course_icon">
                     <h3 class="course_title">Lecture</h3>
-                    <p class="course_description">Listen to the speakers from various countries about the messages of
-                        sharing and opening.
+                    <p class="course_description">Listen to to the speakers from various countries about their products
+                        and innovative ideas.
                     </p>
                 </div>
                 <div class="courses">
-                    <img src="images/react.png" alt="react image" class="course_icon">
-                    <h3 class="course_title">Lecture</h3>
-                    <p class="course_description">Listen to the speakers from various countries about the messages of
-                        sharing and opening.
+                    <img src="images/exhibition.svg" alt="exhibition logo" class="course_icon">
+                    <h3 class="course_title">Exhibition</h3>
+                    <p class="course_description">Appreciate various creations applying PWW License of Artist, organized
+                        from HOTEL ONE Faisalabad
                     </p>
                 </div>
                 <div class="courses">
-                    <img src="images/react.png" alt="react image" class="course_icon">
-                    <h3 class="course_title">Lecture</h3>
-                    <p class="course_description">Listen to the speakers from various countries about the messages of
-                        sharing and opening.
+                    <img src="images/forum.svg" alt="forum logo" class="course_icon">
+                    <h3 class="course_title">Forum</h3>
+                    <p class="course_description">Have the time to share your thoughts and opinions with experts of each
+                        topic.
                     </p>
                 </div>
                 <div class="courses">
-                    <img src="images/react.png" alt="react image" class="course_icon">
-                    <h3 class="course_title">Lecture</h3>
-                    <p class="course_description">Listen to the speakers from various countries about the messages of
-                        sharing and opening.
+                    <img src="images/workshop.svg" alt="workshop logo" class="course_icon">
+                    <h3 class="course_title">Workshop</h3>
+                    <p class="course_description">Try creating your own product with your own design rather than just
+                        watching at it.
                     </p>
                 </div>
                 <div class="courses">
-                    <img src="images/react.png" alt="react image" class="course_icon">
-                    <h3 class="course_title">Lecture</h3>
-                    <p class="course_description">Listen to the speakers from various countries about the messages of
-                        sharing and opening.
+                    <img src="images/ignite.svg" alt="ignite logo" class="course_icon">
+                    <h3 class="course_title">PWW Ignite</h3>
+                    <p class="course_description"> Get opportunities to network with PWW afiliates around the world and
+                        also after
+                        the Watch Week.
                     </p>
                 </div>
             </div>
@@ -106,53 +116,7 @@
         <div class="featured_speaker" id="speakers">
             <h2 class="featured_speaker_section_title">Featured Speaker</h2>
             <div class="speaker_border"></div>
-            <div class="speaker_info">
-                <div class="speaker_card">
-                    <div class="speaker_image_block">
-                        <img class="speaker_image_back" src="images/transparent.jpg" alt="background transparent">
-                        <img class="speaker_image" src="images/transparent.jpg" alt="background transparent">
-                    </div>
-                    <div class="speaker_details">
-                        <h3 class="speaker_name">Yochei Bankler</h3>
-                        <p class="speaker_profession">Berkman Professor of Entrepreneurial Legal Studies at Harward Law
-                            School</p>
-                        <div class="speaker_info_border"></div>
-                        <p class="speaker_achievements">Bankler studies commons-based peer production, and published
-                            his seminal book. The Wealth of Networks in 2006.
-                        </p>
-                    </div>
-                </div>
-                <div class="speaker_card">
-                    <div class="speaker_image_block">
-                        <img class="speaker_image_back" src="images/transparent.jpg" alt="background transparent">
-                        <img class="speaker_image" src="images/transparent.jpg" alt="background transparent">
-                    </div>
-                    <div class="speaker_details">
-                        <h3 class="speaker_name">Yochei Bankler</h3>
-                        <p class="speaker_profession">Berkman Professor of Entrepreneurial Legal Studies at Harward Law
-                            School</p>
-                        <div class="speaker_info_border"></div>
-                        <p class="speaker_achievements">Bankler studies commons-based peer production, and published
-                            his seminal book. The Wealth of Networks in 2006.
-                        </p>
-                    </div>
-                </div>
-                <div class="speaker_card">
-                    <div class="speaker_image_block">
-                        <img class="speaker_image_back" src="images/transparent.jpg" alt="background transparent">
-                        <img class="speaker_image" src="images/transparent.jpg" alt="background transparent">
-                    </div>
-                    <div class="speaker_details">
-                        <h3 class="speaker_name">Yochei Bankler</h3>
-                        <p class="speaker_profession">Berkman Professor of Entrepreneurial Legal Studies at Harward Law
-                            School</p>
-                        <div class="speaker_info_border"></div>
-                        <p class="speaker_achievements">Bankler studies commons-based peer production, and published
-                            his seminal book. The Wealth of Networks in 2006.
-                        </p>
-                    </div>
-                </div>
-            </div>
+            <div class="speaker_info"></div>
             <button class="see_more_speakers">More</button>
         </div>
     </section>
@@ -161,17 +125,16 @@
             <h4 class="partner_section_title">Partner</h4>
             <div class="partner_border"></div>
             <div class="partner_images">
-                <img class="partner_logo" src="../images/transparent.jpg" alt="partners_logo">
-                <img class="partner_logo" src="../images/transparent.jpg" alt="partners_logo">
-                <img class="partner_logo" src="../images/transparent.jpg" alt="partners_logo">
+                <img class="partner_logo" src="./images/rolex.svg" alt="partners_logo">
+                <img class="partner_logo" src="./images/partner_apple.svg" alt="partners_logo">
             </div>
         </div>
         <div class="company_rights">
             <div class="company_name">
-                <img class="company_logo" src="../images/transparent.jpg" alt="">
-                <h2 class="rights_title">creative Commons Korea</h2>
+                <img class="company_logo" src="./images/logo.png" alt="">
+                <h2 class="rights_title">PWW</h2>
             </div>
-            <p class="rights_description">2015 Creative Commons Korea. Some Rights Reserved.</p>
+            <p class="rights_description">2022 Pakistan Watch Week. Some Rights Reserved.</p>
         </div>
     </footer>
     <script src="script.js"></script>
