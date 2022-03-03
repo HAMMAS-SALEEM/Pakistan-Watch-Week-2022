@@ -19,7 +19,7 @@
 
 ## Get Live Demo
 
-[Live Demo Link](https://hammas-saleem.github.io/HTML-CSS-CAPSTONE-PROJECT/)
+[Live Demo Link](https://hammas-saleem.github.io/Pakistan-Watch-Week-2022/)
 
 ## Authors
 
